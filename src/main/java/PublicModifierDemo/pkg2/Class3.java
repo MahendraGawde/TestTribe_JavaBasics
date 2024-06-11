@@ -1,6 +1,6 @@
-package Public_PackageDemo.pkg2;
+package PublicModifierDemo.pkg2;
 
-import Public_PackageDemo.pkg1.Class1;
+import PublicModifierDemo.pkg1.Class1;
 
 public class Class3 {
 

@@ -1,4 +1,4 @@
-package Public_PackageDemo.pkg1;
+package PublicModifierDemo.pkg1;
 
 public class Class2 {
    /* in same package but different class variable and methods can be

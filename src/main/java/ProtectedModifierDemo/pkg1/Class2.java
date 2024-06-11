@@ -1,6 +1,4 @@
-package ProtectedPackageDemo.pkg1;
-
-import ProtectedPackageDemo.pkg1.Class1;
+package ProtectedModifierDemo.pkg1;
 
 public class Class2 {
     Class1 c1 = new Class1();

@@ -1,4 +1,4 @@
-package ProtectedPackageDemo.pkg1;
+package ProtectedModifierDemo.pkg1;
 
 public class SubClass1_t1 extends Class1{
     @Override

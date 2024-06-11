@@ -1,6 +1,6 @@
-package ProtectedPackageDemo.pkg2;
+package ProtectedModifierDemo.pkg2;
 
-import ProtectedPackageDemo.pkg1.Class1;
+import ProtectedModifierDemo.pkg1.Class1;
 
 public class Class3 {
 

@@ -1,7 +1,7 @@
-package DefaultPackageDemo.pckg2;
+package DefaultModifierDemo.pckg2;
 
 
-import DefaultPackageDemo.pckg1.Class1;
+import DefaultModifierDemo.pckg1.Class1;
 
 
 public class Class3 {

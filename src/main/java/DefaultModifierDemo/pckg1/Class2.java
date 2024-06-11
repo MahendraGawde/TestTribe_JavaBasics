@@ -1,6 +1,6 @@
-package DefaultPackageDemo.pckg1;
+package DefaultModifierDemo.pckg1;
 
-import Public_PackageDemo.pkg1.Class1;
+import PublicModifierDemo.pkg1.Class1;
 
 public class Class2 {
     /*Default variables from different class of same package via creating class objects

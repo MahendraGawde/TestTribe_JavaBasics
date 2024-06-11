@@ -1,4 +1,4 @@
-package DefaultPackageDemo.pckg1;
+package DefaultModifierDemo.pckg1;
 
 public class Class1 {
 
