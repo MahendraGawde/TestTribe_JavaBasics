@@ -24,7 +24,7 @@ public class ListDemo {
        /* for (int i =0 ; i< guestNames.size(); i++){
             System.out.println(guestNames.get(i));
         }*/
-        Iterator i1 = guestNames.iterator();
+        Iterator<String> i1 = guestNames.iterator();
         while(i1.hasNext()){
             System.out.println(i1.next());
         }
