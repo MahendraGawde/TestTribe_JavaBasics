@@ -1,7 +1,5 @@
 package interviewPreparation;
 
-import java.util.Locale;
-
 public class PalindromeExample2 {
 
     public static boolean isPalindrome(String str){
