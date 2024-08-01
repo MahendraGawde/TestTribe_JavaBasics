@@ -2,7 +2,7 @@ package interviewPreparation;
 
 public class SecondHighestInArray {
     public static void main(String[] args) {
-        int[] arr = {5,5,5};
+        int[] arr = {2,3,6,9,7,12};
         try {
             int secondHighest = findSecondHighest(arr);
             System.out.println("Second Highest number in array is: " +secondHighest);
