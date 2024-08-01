@@ -4,7 +4,7 @@ public class ObjectDemo {
     public static void main(String[] args) {
 
         // Object is root class of all classes it provides inherited methods to all child classes
-
+        
         Object o1 = new Object();
         o1.toString();
 

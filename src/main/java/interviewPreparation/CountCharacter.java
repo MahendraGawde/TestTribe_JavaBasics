@@ -1,6 +1,6 @@
 package interviewPreparation;
 
-public class RepeatCharacterExample {
+public class CountCharacter {
     public static void main(String[] args) {
 
 
