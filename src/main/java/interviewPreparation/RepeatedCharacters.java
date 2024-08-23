@@ -18,11 +18,12 @@ public class RepeatedCharacters {
 
         //Iterate over character array
         for(char c : charArray){
-            if(c == ' '){
+            if(c == ' '){//ignore spaces
                 continue;
             }
             charCountMap.put(c, charCountMap.getOrDefault(c,0) +1);
         }
+        //Print repeated characters
         System.out.println("Repeated characters in string: ");
 
         for(Map.Entry<Character,Integer> entry : charCountMap.entrySet()){
