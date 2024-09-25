@@ -15,7 +15,7 @@ public class CountryMap {
 
         Scanner input = new Scanner(System.in);
         System.out.print("Please enter country name: ");
-        String country = input.next();
+        String country = input.nextLine();
 
         String capital = null;
         for(Map.Entry<String, String> entry : countryMap.entrySet()){
