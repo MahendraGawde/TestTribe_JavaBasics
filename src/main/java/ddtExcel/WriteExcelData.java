@@ -12,7 +12,7 @@ public class WriteExcelData {
         XSSFWorkbook workbook = new XSSFWorkbook();
         XSSFSheet sheet = workbook.createSheet("EmpDetails");
 
-        // Create object to hold details of excel data in array.
+        // Create object to hold details of Excel data in array.
         Object empData[][] = {{"EmpID", "Name", "Designation"},
                 {101,"Rishi","Manager"},
                 {102, "Vikrant", "Test Lead"},
