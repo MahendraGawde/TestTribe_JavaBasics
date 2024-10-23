@@ -1,8 +1,8 @@
-package interviewPreparation;
+package interviewOnArrays;
 
 import java.util.Arrays;
 
-public class Practice{
+public class ReverseArray {
     public static void main(String[] args) {
         int[] a = new int[5];
         a[0] = 11;
@@ -18,14 +18,11 @@ public class Practice{
         }*/
 
         int i = a.length -1;
+        int j = 0;
         while(i >= 0){
-            int j = 0;
-            while(i>=0){
                 b[j] = a [i];
                 i--;
                 j++;
-            }
-
         }
         System.out.println("Values in a: " +Arrays.toString(a));
         System.out.println("Values in b: " +Arrays.toString(b));
