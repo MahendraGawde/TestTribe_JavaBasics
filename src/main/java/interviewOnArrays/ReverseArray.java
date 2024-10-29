@@ -6,7 +6,7 @@ public class ReverseArray {
     public static void main(String[] args) {
         int[] a = new int[5];
         a[0] = 11;
-        a[1] = 22;
+        a[1] = 9;
         a[2] = 33;
         a[3] = 44;
         a[4] = 55;
