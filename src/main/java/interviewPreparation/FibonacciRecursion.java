@@ -10,7 +10,7 @@ public class FibonacciRecursion {
         System.out.print("Enter number of elements to be printed series: ");
         int count = input.nextInt();
 
-        for (int i = 1; i <= count ; i++) {
+        for (int i = 0; i < count ; i++) {
             System.out.print(fibonacci(i) + " ");
 
         }
@@ -19,9 +19,9 @@ public class FibonacciRecursion {
 
     public static int fibonacci(int position){
 
-        if(position == 1)
+        if(position == 0)
             return 0;
-        if(position == 2){
+        if(position == 1){
             return 1;
         }
         return fibonacci(position-1) + fibonacci(position -2);
