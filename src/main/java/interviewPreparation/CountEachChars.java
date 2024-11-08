@@ -9,6 +9,7 @@ public class CountEachChars {
         String input = "rishi raj";
         Map<Character, Integer> charCountMap = countChars(input);
 
+
         // Print the character counts
         charCountMap.forEach((key, value) ->
                 System.out.println("Character '" + key + "' occurs " + value + " times.")
