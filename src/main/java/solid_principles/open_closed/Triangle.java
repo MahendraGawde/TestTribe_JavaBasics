@@ -1,4 +1,4 @@
-package solid_principles.Open_closed;
+package solid_principles.open_closed;
 
 public class Triangle implements Shape {
     private double base;

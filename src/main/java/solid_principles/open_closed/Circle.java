@@ -1,4 +1,4 @@
-package solid_principles.Open_closed;
+package solid_principles.open_closed;
 
 // Circle.java
 public class Circle implements Shape {
