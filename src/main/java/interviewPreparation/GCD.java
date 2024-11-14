@@ -2,7 +2,7 @@ package interviewPreparation;
 
 public class GCD {
     public static void main(String[] args) {
-        int num1 = 56;
+        int num1 = 0;
         int num2 = 98;
         int gcd = findGCD(num1,num2);
         System.out.println("GCD of " +num1+ " and " +num2+ " is " +gcd);
