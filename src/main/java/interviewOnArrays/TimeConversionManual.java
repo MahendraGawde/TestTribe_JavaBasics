@@ -1,4 +1,4 @@
-package interviewPreparation;
+package interviewOnArrays;
 
 public class TimeConversionManual {
     public static void main(String[] args) {
