@@ -1,4 +1,4 @@
-package interviewPreparation;
+package interviewPreparation.patterns;
 
 import java.util.Scanner;
 
