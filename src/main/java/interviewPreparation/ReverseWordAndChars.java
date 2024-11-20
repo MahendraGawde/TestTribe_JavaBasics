@@ -3,6 +3,7 @@ package interviewPreparation;
 public class ReverseWordAndChars {
     public static void main(String[] args) {
         String input = "Hello World";
+        //Output = dlroW olleH
         String result = reverseWordAndChars(input);
         System.out.println("Original String: " +input);
         System.out.println("Reversed word and characters: " +result);
