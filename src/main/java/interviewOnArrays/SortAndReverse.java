@@ -1,4 +1,4 @@
-package interviewPreparation;
+package interviewOnArrays;
 
 import java.util.Arrays;
 /*
