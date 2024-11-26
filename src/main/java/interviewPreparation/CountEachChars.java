@@ -14,6 +14,12 @@ public class CountEachChars {
         charCountMap.forEach((key, value) ->
                 System.out.println("Character '" + key + "' occurs " + value + " times.")
         );
+
+        System.out.println("------>>>>>>><<<<<<<<<<<<<<----------");
+
+        for(Map.Entry<Character,Integer> entry : charCountMap.entrySet()){
+            System.out.println("Character '" + entry.getKey() + "' occurs " + entry.getValue() +" times");
+        }
     }
 
     public static Map<Character, Integer> countChars(String str) {
