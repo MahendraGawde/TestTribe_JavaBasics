@@ -4,8 +4,11 @@ public class Grandfather {
     String house ="beach house";
     int noOfCars = 3;
 
-    public void gProperty(){
-        System.out.println("Grandfather property bunglow gaadi " + house + " " +noOfCars);
+    public static void propertyMethod(){
+        System.out.println("Grandfather property bunglow gaadi " );
+    }
+    public void grandFatherCar(){
+        System.out.println("Grandfather ambassador");
     }
 
 }

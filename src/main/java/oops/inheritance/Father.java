@@ -2,7 +2,7 @@ package oops.inheritance;
 
 public class Father extends Grandfather{
 
-    public void fProperty(){
+    public static void propertyMethod(){
         System.out.println("Father property");
     }
 
