@@ -1,4 +1,4 @@
-package ProtectedModifierDemo.pkg1;
+package protectedModifierDemo.pkg1;
 
 public class Class1 {
     protected int x =7;

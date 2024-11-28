@@ -1,4 +1,4 @@
-package interfacePackage;
+package interviewOnArrays;
 
 import java.util.Scanner;
 
