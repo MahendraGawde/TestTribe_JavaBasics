@@ -33,12 +33,7 @@ public class LearnComparableComparatorExample {
         System.out.println(dogs);
 
         //Collections.sort(dogs,new MyCustomComparator());
-        Collections.sort(dogs, new Comparator<Animal>() {
-            @Override
-            public int compare(Animal o1, Animal o2) {
-                return o1.name.compareTo(o2.name);
-            }
-        });
+        dogs.sort(Comparator.comparing(o -> o.weight));
 
         System.out.println(dogs);
 
