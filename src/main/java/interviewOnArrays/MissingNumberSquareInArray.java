@@ -1,6 +1,6 @@
-package interviewPreparation;
+package interviewOnArrays;
 
-public class MissingNumberInArray {
+public class MissingNumberSquareInArray {
     public static void main(String[] args) {
         int[] arr = {1,4,9,25};
         int missingNumber = findMissingNumber(arr);
