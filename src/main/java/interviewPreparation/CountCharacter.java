@@ -2,10 +2,9 @@ package interviewPreparation;
 
 public class CountCharacter {
     public static void main(String[] args) {
-
-
                 // Hardcoded input string
                 String input = "Hi my name is aakash";
+        System.out.println(input.length());
 
                 // Initialize the counter
                 int count = 0;
@@ -16,7 +15,6 @@ public class CountCharacter {
                         count++;
                     }
                 }
-
                 // Display the count
                 System.out.println("The character 'a' appears " + count + " times in the string.");
             }
