@@ -13,6 +13,6 @@ public class FilterAlphabetsAndDigitsWithoutRegex {
             }
         }
 
-        System.out.println("Output: " + result.toString());
+        System.out.println("Output: " + result);
     }
 }
