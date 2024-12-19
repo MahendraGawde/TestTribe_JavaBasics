@@ -1,6 +1,6 @@
 package interviewPreparation;
 
-public class ReverseEachWord {
+public class    ReverseEachWord {
     public static void main(String[] args) {
         String input = "Hello World from ChatGPT";
         //Output = olleH dlroW morf TPGtahC
