@@ -1,6 +1,6 @@
 package interviewPreparation;
 
-public class CountStrings {
+public class CountCharactersInWord {
     public static void countChars(String str){
         char[] ch = str.toCharArray();
         for (int i = 0; i <ch.length ; i++) {
