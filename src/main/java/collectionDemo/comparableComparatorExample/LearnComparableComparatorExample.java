@@ -18,9 +18,9 @@ class MyCustomComparator implements Comparator<Animal> {
 }
 public class LearnComparableComparatorExample {
     public static void main(String[] args) {
-        Animal a1 = new Animal(2,"Zuno",5);
-        Animal a2 = new Animal(2,"Tom",12);
-        Animal a3 = new Animal(2,"Bruno",10);
+        Animal a1 = new Animal(9,"Zuno",5);
+        Animal a2 = new Animal(3,"Tom",12);
+        Animal a3 = new Animal(7,"Bruno",10);
         Animal a4 = new Animal(5,"Rocky",11);
 
         List<Animal> dogs = new ArrayList<>();
@@ -31,9 +31,10 @@ public class LearnComparableComparatorExample {
         dogs.add(a4);
 
         System.out.println(dogs);
+//        Collections.sort(dogs);
 
-        //Collections.sort(dogs,new MyCustomComparator());
-        dogs.sort(Comparator.comparing(o -> o.weight));
+        Collections.sort(dogs,new MyCustomComparator());
+//        dogs.sort(Comparator.comparing(o -> o.weight));
 
         System.out.println(dogs);
 
