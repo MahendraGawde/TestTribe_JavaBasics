@@ -8,6 +8,7 @@ import java.util.Objects;
 public class Students implements Comparable<Students>{
 
     private int id;
+    private String name;
 
     @Override
     public boolean equals(Object o) {
@@ -22,7 +23,7 @@ public class Students implements Comparable<Students>{
         return Objects.hash(id, name);
     }
 
-    private String name;
+
 
     public Students(int id, String name) {
         this.id = id;
@@ -74,9 +75,9 @@ public class Students implements Comparable<Students>{
         studentsList.add(s5);
 
         System.out.println("Before sorting: \n " +studentsList);
-//        Collections.sort(studentsList);
+        Collections.sort(studentsList);
         System.out.println("<--------------------------->");
-        studentsList.sort(new IdComparator());
+//        studentsList.sort(new IdComparator());
         System.out.println("After sorting: \n " +studentsList);
 
     }
