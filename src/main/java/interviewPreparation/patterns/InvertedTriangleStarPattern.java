@@ -4,14 +4,7 @@ import java.util.Scanner;
 
 public class InvertedTriangleStarPattern {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Enter the number of rows for the inverted pyramid:");
-        int rows = sc.nextInt();
-        invertedTrianglePattern(rows);
-        sc.close();
-    }
-
-    public static void invertedTrianglePattern(int maxRows) {
+        int maxRows =5;
         for (int i = maxRows; i >= 1; i--) {
             // Print leading spaces
             for (int j = maxRows; j > i; j--) {
@@ -22,7 +15,7 @@ public class InvertedTriangleStarPattern {
                 System.out.print("* ");
             }
             System.out.println();
-        }
+    }
     }
 
 }
