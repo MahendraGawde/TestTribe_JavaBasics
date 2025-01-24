@@ -1,6 +1,5 @@
 package interviewPreparation.patterns;
 
-import java.util.Scanner;
 
 public class InvertedTriangleStarPattern {
     public static void main(String[] args) {
